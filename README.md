@@ -233,22 +233,30 @@ The source code of ls is located in the src folder.
 
 ## Sources
 
-[https://medium.com/meatandmachines/what-really-happens-when-you-type-ls-l-in-the-shell-a8914950fd73#:~:text=It%20is%20the%20way%20a,and%20created%20date%20and%20time.](https://medium.com/meatandmachines/what-really-happens-when-you-type-ls-l-in-the-shell-a8914950fd73#:~:text=It%20is%20the%20way%20a,and%20created%20date%20and%20time.)
-
-[https://stackoverflow.com/questions/20823371/what-is-the-difference-between-the-functions-of-the-exec-family-of-system-calls](https://stackoverflow.com/questions/20823371/what-is-the-difference-between-the-functions-of-the-exec-family-of-system-calls)
-
-[https://www.percona.com/community-blog/2021/01/04/fork-exec-wait-and-exit/](https://www.percona.com/community-blog/2021/01/04/fork-exec-wait-and-exit/)
-
-[https://gist.github.com/svdamani/cd9d2a5bb19228d912dc](https://gist.github.com/svdamani/cd9d2a5bb19228d912dc)
-
-[https://mtodorovic.developpez.com/linux/programmation-avancee/](https://mtodorovic.developpez.com/linux/programmation-avancee/)
 
 The C Programming Language Dennis Ritchie & Brian Kernighan
 
-[https://git.savannah.gnu.org/cgit/coreutils.git/refs/tags](https://git.savannah.gnu.org/cgit/coreutils.git/refs/tags)
+[Family of exec](https://stackoverflow.com/questions/20823371/what-is-the-difference-between-the-functions-of-the-exec-family-of-system-calls)
+
+[fork, exec, wait and exit](https://www.percona.com/community-blog/2021/01/04/fork-exec-wait-and-exit/)
+
+[What happens behind ls command](https://medium.com/meatandmachines/what-really-happens-when-you-type-ls-l-in-the-shell-a8914950fd73#:~:text=It%20is%20the%20way%20a,and%20created%20date%20and%20time.)
+
+[ls example](https://gist.github.com/svdamani/cd9d2a5bb19228d912dc)
+
+[Programmation avancée](https://mtodorovic.developpez.com/linux/programmation-avancee/)
+
+[old ls](https://git.savannah.gnu.org/cgit/coreutils.git/refs/tags)
 
 [Coreutils](https://www.gnu.org/software/coreutils/)
 
-[https://gist.github.com/amitsaha/8169242](https://gist.github.com/amitsaha/8169242)
+[How does ls work? by Amitasha](https://gist.github.com/amitsaha/8169242)
 
-[http://manpagesfr.free.fr/man/man3/opendir.3.html](http://manpagesfr.free.fr/man/man3/opendir.3.html)
+[opendir](http://manpagesfr.free.fr/man/man3/opendir.3.html)
+
+___
+|          |            |
+| -------- | ---------- |
+| Author   | AnthonyF   |
+| Created  | 24/04/2021 |
+| Modified | 24/04/2021 |
