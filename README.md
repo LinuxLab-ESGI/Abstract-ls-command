@@ -2,6 +2,7 @@
 
 - [Abstract of the `ls` command](#abstract-of-the-ls-command)
   - [Some useful options and tips](#some-useful-options-and-tips)
+  - [History of `ls`](#history-of-ls)
   - [How does ls work?](#how-does-ls-work)
     - [The shell](#the-shell)
     - [Checks (Aliases and PATH)](#checks-aliases-and-path)
@@ -30,9 +31,19 @@
 | `-i`      | Inodes.                                   |
 | `-n`      | Numeric UID and GID.                      |
 
+## History of `ls`
+
+The `ls` command is one of the oldest and most important commands for Unix/Linux environments.
+
+In its first versions it was named `listf` and was included in the Compatible Time Sharing System (CTSS, 1961) developed at MIT, whose successor was Multics (1964).
+A few years later `listf` was renamed by `list` and finally by `ls` in 1969 in front of the beginning of Unix development.
+It was in 1971 that the `ls` command was officially documented.
+
+Nowadays the `ls` command we use comes from the GNU foundation.
+
 ## How does ls work?
 
-`ls` (**L**ist **D**irectory) is a program from the coreutils package developed by the GNU foundation. It is one of the first commands we learn when we start working with Linux distributions. But how does it actually work?
+`ls` (**L**i**S**t Directory) is a program from the coreutils package developed by the GNU foundation. It is one of the first commands we learn when we start working with Linux distributions. But how does it actually work?
 
 ### The shell
 
@@ -233,7 +244,6 @@ The source code of ls is located in the src folder.
 
 ## Sources
 
-
 The C Programming Language Dennis Ritchie & Brian Kernighan
 
 [Family of exec](https://stackoverflow.com/questions/20823371/what-is-the-difference-between-the-functions-of-the-exec-family-of-system-calls)
@@ -246,7 +256,7 @@ The C Programming Language Dennis Ritchie & Brian Kernighan
 
 [Programmation avancée](https://mtodorovic.developpez.com/linux/programmation-avancee/)
 
-[old ls](https://git.savannah.gnu.org/cgit/coreutils.git/refs/tags)
+[Old ls](https://git.savannah.gnu.org/cgit/coreutils.git/refs/tags)
 
 [Coreutils](https://www.gnu.org/software/coreutils/)
 
@@ -254,9 +264,11 @@ The C Programming Language Dennis Ritchie & Brian Kernighan
 
 [opendir](http://manpagesfr.free.fr/man/man3/opendir.3.html)
 
+[History of ls](https://linuxgazette.net/issue48/fischer.html)
+
 ___
 |          |            |
 | -------- | ---------- |
 | Author   | AnthonyF   |
 | Created  | 24/04/2021 |
-| Modified | 24/04/2021 |
+| Modified | 28/04/2022 |
